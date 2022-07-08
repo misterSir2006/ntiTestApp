@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AFB84357F489BCFB2750BF /* Pods_ntiTestFoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464CA060BECD6F63582ED800 /* Pods_ntiTestFoodApp.framework */; };
+		186954BA28787A0A009B72C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954B928787A0A009B72C4 /* AppDelegate.swift */; };
+		186954BC28787A0A009B72C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954BB28787A0A009B72C4 /* SceneDelegate.swift */; };
+		186954C328787A0D009B72C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186954C228787A0D009B72C4 /* Assets.xcassets */; };
+		186954C628787A0D009B72C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186954C428787A0D009B72C4 /* LaunchScreen.storyboard */; };
+		186954CE28787A3F009B72C4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954CD28787A3F009B72C4 /* TabBar.swift */; };
+		186954D828787AFE009B72C4 /* RoundedMplus1c-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D128787AFE009B72C4 /* RoundedMplus1c-Medium.ttf */; };
+		186954D928787AFE009B72C4 /* RoundedMplus1c-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D228787AFE009B72C4 /* RoundedMplus1c-Light.ttf */; };
+		186954DA28787AFE009B72C4 /* RoundedMplus1c-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D328787AFE009B72C4 /* RoundedMplus1c-Bold.ttf */; };
+		186954DB28787AFE009B72C4 /* RoundedMplus1c-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D428787AFE009B72C4 /* RoundedMplus1c-Thin.ttf */; };
+		186954DC28787AFE009B72C4 /* RoundedMplus1c-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D528787AFE009B72C4 /* RoundedMplus1c-Regular.ttf */; };
+		186954DD28787AFE009B72C4 /* RoundedMplus1c-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D628787AFE009B72C4 /* RoundedMplus1c-Black.ttf */; };
+		186954DE28787AFE009B72C4 /* RoundedMplus1c-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186954D728787AFE009B72C4 /* RoundedMplus1c-ExtraBold.ttf */; };
+		186954E128787BBC009B72C4 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954E028787BBC009B72C4 /* ApiService.swift */; };
+		186954F028787CA8009B72C4 /* IntExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954E428787CA8009B72C4 /* IntExtenstion.swift */; };
+		186954F128787CA8009B72C4 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954E828787CA8009B72C4 /* ItemCollectionViewCell.swift */; };
+		186954F228787CA8009B72C4 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954E928787CA8009B72C4 /* CategoryCollectionViewCell.swift */; };
+		186954F328787CA8009B72C4 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954EA28787CA8009B72C4 /* ShopViewController.swift */; };
+		186954F428787CA8009B72C4 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954EC28787CA8009B72C4 /* Items.swift */; };
+		186954F528787CA8009B72C4 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954ED28787CA8009B72C4 /* Categories.swift */; };
+		186954F628787CA8009B72C4 /* ShopVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954EF28787CA8009B72C4 /* ShopVCView.swift */; };
+		186954F828787CB4009B72C4 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954F728787CB4009B72C4 /* LogoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186954B628787A0A009B72C4 /* ntiTestFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ntiTestFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186954B928787A0A009B72C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186954BB28787A0A009B72C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		186954C228787A0D009B72C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186954C528787A0D009B72C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186954C728787A0D009B72C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186954CD28787A3F009B72C4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		186954D128787AFE009B72C4 /* RoundedMplus1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Medium.ttf"; sourceTree = "<group>"; };
+		186954D228787AFE009B72C4 /* RoundedMplus1c-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Light.ttf"; sourceTree = "<group>"; };
+		186954D328787AFE009B72C4 /* RoundedMplus1c-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Bold.ttf"; sourceTree = "<group>"; };
+		186954D428787AFE009B72C4 /* RoundedMplus1c-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Thin.ttf"; sourceTree = "<group>"; };
+		186954D528787AFE009B72C4 /* RoundedMplus1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Regular.ttf"; sourceTree = "<group>"; };
+		186954D628787AFE009B72C4 /* RoundedMplus1c-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Black.ttf"; sourceTree = "<group>"; };
+		186954D728787AFE009B72C4 /* RoundedMplus1c-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-ExtraBold.ttf"; sourceTree = "<group>"; };
+		186954E028787BBC009B72C4 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		186954E428787CA8009B72C4 /* IntExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtenstion.swift; sourceTree = "<group>"; };
+		186954E828787CA8009B72C4 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		186954E928787CA8009B72C4 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		186954EA28787CA8009B72C4 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		186954EC28787CA8009B72C4 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		186954ED28787CA8009B72C4 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		186954EF28787CA8009B72C4 /* ShopVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopVCView.swift; sourceTree = "<group>"; };
+		186954F728787CB4009B72C4 /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		464CA060BECD6F63582ED800 /* Pods_ntiTestFoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ntiTestFoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCA98B39FA1BCB0C35E6781 /* Pods-ntiTestFoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntiTestFoodApp.debug.xcconfig"; path = "Target Support Files/Pods-ntiTestFoodApp/Pods-ntiTestFoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F3EEBFF57C0916CB3E82B0 /* Pods-ntiTestFoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntiTestFoodApp.release.xcconfig"; path = "Target Support Files/Pods-ntiTestFoodApp/Pods-ntiTestFoodApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186954B328787A0A009B72C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AFB84357F489BCFB2750BF /* Pods_ntiTestFoodApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AEEA498ADB0A1CA03CADF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA98B39FA1BCB0C35E6781 /* Pods-ntiTestFoodApp.debug.xcconfig */,
+				A5F3EEBFF57C0916CB3E82B0 /* Pods-ntiTestFoodApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		186954AD28787A0A009B72C4 = {
+			isa = PBXGroup;
+			children = (
+				186954B828787A0A009B72C4 /* ntiTestFoodApp */,
+				186954B728787A0A009B72C4 /* Products */,
+				09AEEA498ADB0A1CA03CADF1 /* Pods */,
+				674AA20190DFBD9B38A65F32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186954B728787A0A009B72C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186954B628787A0A009B72C4 /* ntiTestFoodApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186954B828787A0A009B72C4 /* ntiTestFoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				186954B928787A0A009B72C4 /* AppDelegate.swift */,
+				186954BB28787A0A009B72C4 /* SceneDelegate.swift */,
+				186954CD28787A3F009B72C4 /* TabBar.swift */,
+				186954F728787CB4009B72C4 /* LogoView.swift */,
+				186954E228787CA8009B72C4 /* Modules */,
+				186954DF28787BBC009B72C4 /* Services */,
+				186954CF28787AEC009B72C4 /* Resources */,
+				186954C428787A0D009B72C4 /* LaunchScreen.storyboard */,
+				186954C728787A0D009B72C4 /* Info.plist */,
+			);
+			path = ntiTestFoodApp;
+			sourceTree = "<group>";
+		};
+		186954CF28787AEC009B72C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				186954D028787AFE009B72C4 /* Fonts */,
+				186954C228787A0D009B72C4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		186954D028787AFE009B72C4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				186954D128787AFE009B72C4 /* RoundedMplus1c-Medium.ttf */,
+				186954D228787AFE009B72C4 /* RoundedMplus1c-Light.ttf */,
+				186954D328787AFE009B72C4 /* RoundedMplus1c-Bold.ttf */,
+				186954D428787AFE009B72C4 /* RoundedMplus1c-Thin.ttf */,
+				186954D528787AFE009B72C4 /* RoundedMplus1c-Regular.ttf */,
+				186954D628787AFE009B72C4 /* RoundedMplus1c-Black.ttf */,
+				186954D728787AFE009B72C4 /* RoundedMplus1c-ExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		186954DF28787BBC009B72C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				186954E028787BBC009B72C4 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		186954E228787CA8009B72C4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				186954E528787CA8009B72C4 /* ShopViewController */,
+				186954E328787CA8009B72C4 /* Extensions */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		186954E328787CA8009B72C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				186954E428787CA8009B72C4 /* IntExtenstion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		186954E528787CA8009B72C4 /* ShopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				186954EB28787CA8009B72C4 /* Model */,
+				186954EE28787CA8009B72C4 /* View */,
+				186954E628787CA8009B72C4 /* Controller */,
+			);
+			path = ShopViewController;
+			sourceTree = "<group>";
+		};
+		186954E628787CA8009B72C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				186954EA28787CA8009B72C4 /* ShopViewController.swift */,
+				186954E728787CA8009B72C4 /* Cells */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		186954E728787CA8009B72C4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				186954E828787CA8009B72C4 /* ItemCollectionViewCell.swift */,
+				186954E928787CA8009B72C4 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		186954EB28787CA8009B72C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				186954EC28787CA8009B72C4 /* Items.swift */,
+				186954ED28787CA8009B72C4 /* Categories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186954EE28787CA8009B72C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				186954EF28787CA8009B72C4 /* ShopVCView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		674AA20190DFBD9B38A65F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464CA060BECD6F63582ED800 /* Pods_ntiTestFoodApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186954B528787A0A009B72C4 /* ntiTestFoodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186954CA28787A0D009B72C4 /* Build configuration list for PBXNativeTarget "ntiTestFoodApp" */;
+			buildPhases = (
+				E1EEADA0C68E91CBA875E349 /* [CP] Check Pods Manifest.lock */,
+				186954B228787A0A009B72C4 /* Sources */,
+				186954B328787A0A009B72C4 /* Frameworks */,
+				186954B428787A0A009B72C4 /* Resources */,
+				A408A190C9BEA1F5BFDD9447 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ntiTestFoodApp;
+			productName = ntiTestFoodApp;
+			productReference = 186954B628787A0A009B72C4 /* ntiTestFoodApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186954AE28787A0A009B72C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					186954B528787A0A009B72C4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 186954B128787A0A009B72C4 /* Build configuration list for PBXProject "ntiTestFoodApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186954AD28787A0A009B72C4;
+			productRefGroup = 186954B728787A0A009B72C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186954B528787A0A009B72C4 /* ntiTestFoodApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186954B428787A0A009B72C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186954DC28787AFE009B72C4 /* RoundedMplus1c-Regular.ttf in Resources */,
+				186954C628787A0D009B72C4 /* LaunchScreen.storyboard in Resources */,
+				186954DA28787AFE009B72C4 /* RoundedMplus1c-Bold.ttf in Resources */,
+				186954C328787A0D009B72C4 /* Assets.xcassets in Resources */,
+				186954DD28787AFE009B72C4 /* RoundedMplus1c-Black.ttf in Resources */,
+				186954DB28787AFE009B72C4 /* RoundedMplus1c-Thin.ttf in Resources */,
+				186954DE28787AFE009B72C4 /* RoundedMplus1c-ExtraBold.ttf in Resources */,
+				186954D828787AFE009B72C4 /* RoundedMplus1c-Medium.ttf in Resources */,
+				186954D928787AFE009B72C4 /* RoundedMplus1c-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A408A190C9BEA1F5BFDD9447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ntiTestFoodApp/Pods-ntiTestFoodApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ntiTestFoodApp/Pods-ntiTestFoodApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ntiTestFoodApp/Pods-ntiTestFoodApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1EEADA0C68E91CBA875E349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ntiTestFoodApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186954B228787A0A009B72C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186954E128787BBC009B72C4 /* ApiService.swift in Sources */,
+				186954F828787CB4009B72C4 /* LogoView.swift in Sources */,
+				186954BA28787A0A009B72C4 /* AppDelegate.swift in Sources */,
+				186954F028787CA8009B72C4 /* IntExtenstion.swift in Sources */,
+				186954F128787CA8009B72C4 /* ItemCollectionViewCell.swift in Sources */,
+				186954F628787CA8009B72C4 /* ShopVCView.swift in Sources */,
+				186954F428787CA8009B72C4 /* Items.swift in Sources */,
+				186954F328787CA8009B72C4 /* ShopViewController.swift in Sources */,
+				186954BC28787A0A009B72C4 /* SceneDelegate.swift in Sources */,
+				186954F528787CA8009B72C4 /* Categories.swift in Sources */,
+				186954F228787CA8009B72C4 /* CategoryCollectionViewCell.swift in Sources */,
+				186954CE28787A3F009B72C4 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		186954C428787A0D009B72C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186954C528787A0D009B72C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186954C828787A0D009B72C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186954C928787A0D009B72C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186954CB28787A0D009B72C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCA98B39FA1BCB0C35E6781 /* Pods-ntiTestFoodApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8C5478722;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ntiTestFoodApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MisterSir.ntiTestFoodApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		186954CC28787A0D009B72C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F3EEBFF57C0916CB3E82B0 /* Pods-ntiTestFoodApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8C5478722;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ntiTestFoodApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MisterSir.ntiTestFoodApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186954B128787A0A009B72C4 /* Build configuration list for PBXProject "ntiTestFoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186954C828787A0D009B72C4 /* Debug */,
+				186954C928787A0D009B72C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186954CA28787A0D009B72C4 /* Build configuration list for PBXNativeTarget "ntiTestFoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186954CB28787A0D009B72C4 /* Debug */,
+				186954CC28787A0D009B72C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186954AE28787A0A009B72C4 /* Project object */;
+}
